@@ -318,7 +318,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#56AED4;}
 .services li article a{color:inherit;}
 .services li article:hover{color:inherit; background-color:#FFFFFF; box-shadow:0px 0px 15px rgba(0,0,0,.2);}
 .services li article:hover > a{color:#FE0000;}
-
+.wrkshps{padding-top : 200px; padding-bottom: 200px;}
 .pricelist{background-color:#FFFFFF;}
 .pricelist > li:nth-child(2){color:#FFFFFF; background-color:#2B2F32;}
 .pricelist, .pricelist > li:last-child{border-color:#D7D7D7;}
