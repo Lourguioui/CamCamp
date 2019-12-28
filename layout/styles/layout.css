@@ -50,10 +50,13 @@ File: Layout CSS
 .sectiontitle *{margin:0;}
 .sectiontitle .heading{display:inline-block; position:relative; padding-bottom:8px;}
 .sectiontitle .heading::after{display:block; position:absolute; bottom:0; left:50%; width:50px; height:2px; margin-left:-25px; content:"";}
-.register{margin-left : 37%; margin-top : 100px; background-color : #F28705; width : 200px; height: 50px; border : none; border-radius: 2%; }
-
+.register-btn{margin-left : 36.5%;}
+.register{margin-left : 50%; margin-top : 100px; height: 50px; text-decoration: none; font-family: "Roboto" sans-serif; }
+.register button{border : none; border-radius: 2%; background-color : #F28705; width : 200px; height: 50px; text-decoration: none; font-family: "Roboto" sans-serif; text-decoration: none; text-decoration-line: none;}
+.register button:hover{background-color: #023373; color: #F28705; text-decoration-line: none;}
+.register:hover{text-decoration-line: none;}
 .videocontainer iframe{border:none; border-width:0;}
-.videocontainer figcaption{margin-top:10px;}
+.videocontainer figcaption{margin-top:10px; }
 
 .services{text-align:center;}
 .services li article{padding:30px 20px;}
@@ -345,7 +348,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#56AED4;}
 
 /* Navigation */
 #mainav li a{color:#FFFFFF;}
-#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#FE0000; background-color:inherit;}
+#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#F28705; background-color:inherit;}
 #mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(51,54,59,.65)/* #33363B */; border-color:rgba(51,54,59,.65)/* #33363B */;}
 #mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#FE0000;}
 #mainav form select{color:#FFFFFF; background-color:#2B2F32; border-color:rgba(255,255,255,.2);/* #FFFFFF */}
